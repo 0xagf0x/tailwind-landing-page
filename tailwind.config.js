@@ -1,24 +1,22 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./*.html'], // will compile any styles found in html files
+  content: ['./*.html'],
   theme: {
-    // breakpoints
     screens: {
-      sm: '460px',
+      sm: '480px',
       md: '768px',
       lg: '976px',
       xl: '1440px',
     },
     extend: {
       colors: {
-        brightRed: '#DA3B18',
-        brightRedLight: '#E2694E',
-        BrightRedSupLight: '#E58874',
-        darkBlue: '#2238A7',
-        darkGreyishBlue: '#5461A2',
-        veryDarkBlue: '#132169',
-        veryPaleRed: '#F8C5C4',
-        veryLightGrey: '#EDEDED',
+        brightRed: 'hsl(12, 88%, 59%)',
+        brightRedLight: 'hsl(12, 88%, 69%)',
+        brightRedSupLight: 'hsl(12, 88%, 95%)',
+        darkBlue: 'hsl(228, 39%, 23%)',
+        darkGrayishBlue: 'hsl(227, 12%, 61%)',
+        veryDarkBlue: 'hsl(233, 12%, 13%)',
+        veryPaleRed: 'hsl(13, 100%, 96%)',
+        veryLightGray: 'hsl(0, 0%, 98%)',
       },
     },
   },
